@@ -40,15 +40,3 @@ function divi(){
 
 
 
-function triviValues(){
-    var arg1 = (Math.floor(Math.random() * 10) + 1);
-    var arg2 = (Math.floor(Math.random() * 10) + 1);
-    document.getElementById("values1").innerHTML = arg1;
-    document.getElementById("values2").innerHTML = arg2;
-    
-   triviAdd(arg1,arg2);
-}
-
-function triviAdd(arg1,arg2){
-
-}
